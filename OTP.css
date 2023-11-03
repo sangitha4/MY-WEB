@@ -1,0 +1,38 @@
+.parent{
+    background : #000;
+    height: 80px;
+    width: 81%;
+    margin: 115px auto 23px;
+    border-radius: 45px;
+    padding-top: 25px;
+}
+body{
+    background: beige;
+}
+.center{
+    text-align: center;
+}
+.parent div{
+    padding-top: 28px;
+}
+p{
+    color: #fff;
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    letter-spacing: 20px;
+}
+button{
+    background: azure;
+    border: none;
+    padding: 11px 18px;
+    font-size: 19px;
+    border-radius: 2px solid black;
+    margin-top: 44px;
+    transition: all 0.2s ease-in;
+}
+button :active{
+border-bottom: 2px solid black;
+}
